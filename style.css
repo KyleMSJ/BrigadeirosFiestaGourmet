@@ -4,9 +4,12 @@ a{
     height: fit-content;
 }
 .logo{
-    float: left;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     margin-left: 8%;
+    border-radius: 50%; 
+    width: 30vw;
 }
 
 /* Container header */
@@ -19,21 +22,34 @@ a{
     display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
+    background-image: url("/images/SaboresVariados.jpg");
+    background-position: center;
+    background-clip: content-box;
 }
-
-/* navbar opções*/
+/* Body */
 body{
-    height: 100vh;
+    position: relative;
+    width: 100%;
     box-sizing: border-box;
+    background-color: #1c130d;
+    display: block;
+    overflow-x: hidden;
+}
+/* navbar opções*/
+
+.menu{
+    max-width: 6%;
+    height: auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
 }
 
-/* nav .menu{
-    align-self: flex-end;
-} */
 
-ul{
-    width: 60px;
+.divider{
+    margin-top: 80%;
 }
+
 span{
     color: #ae2a03;
     text-shadow: 2px 2px 2px #a32a08;
@@ -41,20 +57,16 @@ span{
     font-family:'Courier New', Courier, monospace
 }
 
-.nav-item{
+.menu .nav-item{
     margin-top: 3%;
     text-align: center;
+    vertical-align: middle;
 }
-/*Vetores*/
-.image{
-    min-width: none;
-    max-width: 80%;
-}
+/*Imagens*/
 
-/*Png | jpg*/
-.nav-item img{
-    min-width: none;
-    max-width: 80%;
+.icons{
+    min-width: 1vw;
+    max-width: 3vw;
 }
 
 /*Sabores*/
