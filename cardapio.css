@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+table .cabecalho{
+    background-color: #ffc415;
+    font-weight: 600;
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    max-width: 100%;
+    height: auto;
+}
+
+.table{
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    overflow-y: hidden;
+}
