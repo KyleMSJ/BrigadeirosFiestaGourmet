@@ -23,7 +23,7 @@ a{
     display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-image: url("/images/SaboresVariados.jpg");
+    background-image: url("images/SaboresVariados.jpg");
     background-position: center;
     background-clip: content-box;
 }
